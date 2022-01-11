@@ -1,0 +1,190 @@
+{
+  "formatVersion": 3,
+  "id": "root",
+  "ideas": {
+    "1": {
+      "title": "Comandos de Javascript",
+      "id": 1,
+      "attr": {
+        "position": [
+          -78,
+          -15,
+          1
+        ],
+        "style": {
+          "backgroundColor": "#FFFFFF"
+        }
+      },
+      "ideas": {
+        "1": {
+          "title": "console.log()",
+          "id": "3.4e78.8d0316a06-4ddb.7f8bd5e5e",
+          "ideas": {
+            "1": {
+              "title": "este comando printa na tela ",
+              "id": "4.4e78.8d0316a06-4ddb.7f8bd5e5e"
+            },
+            "2": {
+              "title": "o conteúdo deve estar dentro dos () parênteses",
+              "id": "5.4e78.8d0316a06-4ddb.7f8bd5e5e"
+            },
+            "3": {
+              "title": "se o conteúdo estiver entre \"\" ele será uma string",
+              "id": "7.4e78.8d0316a06-4ddb.7f8bd5e5e"
+            },
+            "4": {
+              "title": "console.log(listaDeDestinos[1], listaDeDestinos[0]); // imprimir uma posição específica dentro de uma lista",
+              "id": "27.4e78.8d0316a06-4ddb.7f8bd5e5e",
+              "attr": {
+                "style": {
+                  "width": 353
+                }
+              }
+            }
+          }
+        },
+        "11": {
+          "title": "const nome = valor do nome",
+          "id": "8.4e78.8d0316a06-4ddb.7f8bd5e5e",
+          "ideas": {
+            "1": {
+              "title": "este comando cria uma variável global",
+              "id": "9.4e78.8d0316a06-4ddb.7f8bd5e5e",
+              "ideas": {
+                "1": {
+                  "title": "a variável global terá o mesmo valor em todo o programa",
+                  "id": "12.4e78.8d0316a06-4ddb.7f8bd5e5e"
+                }
+              }
+            },
+            "2": {
+              "title": "não é possível utilizar nomes que o programa já utiliza",
+              "id": "10.4e78.8d0316a06-4ddb.7f8bd5e5e"
+            }
+          }
+        },
+        "12": {
+          "title": "variável booleana",
+          "id": "28.4e78.8d0316a06-4ddb.7f8bd5e5e",
+          "ideas": {
+            "1": {
+              "title": "só pode ser true ou false",
+              "id": "29.4e78.8d0316a06-4ddb.7f8bd5e5e"
+            }
+          }
+        },
+        "13": {
+          "title": "Atalho para organizar o código:",
+          "id": "32.4e78.8d0316a06-4ddb.7f8bd5e5e",
+          "ideas": {
+            "1": {
+              "title": "Alt + shift + f",
+              "id": "30.4e78.8d0316a06-4ddb.7f8bd5e5e",
+              "ideas": {},
+              "attr": {}
+            }
+          }
+        },
+        "14": {
+          "title": "while() ;",
+          "id": "38.421d.31b52d231-3e54.edf1ee266",
+          "ideas": {}
+        },
+        "-1": {
+          "title": "if e else",
+          "id": "14.4e78.8d0316a06-4ddb.7f8bd5e5e",
+          "ideas": {
+            "1": {
+              "title": "const numero = 15\nif (numero < 5) {\n    console.log(\"O número é menor que 5\")\n} else {\n    console.log(\"O número é maior que 5\")\n}\n\n",
+              "id": "11.4e78.8d0316a06-4ddb.7f8bd5e5e",
+              "attr": {
+                "style": {
+                  "width": 258
+                }
+              }
+            }
+          }
+        },
+        "-2": {
+          "title": "array",
+          "id": "15.4e78.8d0316a06-4ddb.7f8bd5e5e",
+          "ideas": {
+            "1": {
+              "title": "Cria Tabela",
+              "id": "16.4e78.8d0316a06-4ddb.7f8bd5e5e"
+            },
+            "2": {
+              "title": "const nomeFamiliares = new Array (\n'Marina',\n'Leandro',\n'Elizabete',\n'Fernando'\n);\n\n\nconsole.log(nomeFamiliares)",
+              "id": "18.4e78.8d0316a06-4ddb.7f8bd5e5e",
+              "attr": {
+                "style": {
+                  "width": 255
+                }
+              }
+            },
+            "3": {
+              "title": "push",
+              "id": "20.4e78.8d0316a06-4ddb.7f8bd5e5e",
+              "ideas": {
+                "1": {
+                  "title": "insere elemento no array",
+                  "id": "21.4e78.8d0316a06-4ddb.7f8bd5e5e"
+                },
+                "2": {
+                  "title": "const listaDeDestinos = new Array (\n    `Salvador`,\n    `São Paulo`,\n    `Rio de Janeiro`\n);\nlistaDeDestinos.push(`Curitiba`) ;\nconsole.log(listaDeDestinos);",
+                  "id": "22.4e78.8d0316a06-4ddb.7f8bd5e5e"
+                }
+              }
+            },
+            "4": {
+              "title": "splice",
+              "id": "23.4e78.8d0316a06-4ddb.7f8bd5e5e",
+              "ideas": {
+                "1": {
+                  "title": "retira elemento do array",
+                  "id": "24.4e78.8d0316a06-4ddb.7f8bd5e5e"
+                },
+                "2": {
+                  "title": "listaDeDestinos.splice(2,1); // (2,1) significa ( o 2 significa a posição dentro array começando do 0 , o 1 quantidade de elementos a serem deletados na sequência)",
+                  "id": "26.4e78.8d0316a06-4ddb.7f8bd5e5e"
+                }
+              }
+            }
+          },
+          "attr": {
+            "position": [
+              642.9915161132812,
+              -137.9915008544922,
+              1
+            ]
+          }
+        },
+        "-3": {
+          "title": "para se escrever \"ou\" em javascript se usa o ||",
+          "id": "33.4e78.8d0316a06-4ddb.7f8bd5e5e",
+          "ideas": {
+            "1": {
+              "title": "|| é um comando para dizer que para satisfazer a equação ou um elemento ou outro elemento deve ser verdadeiro",
+              "id": "34.4e78.8d0316a06-4ddb.7f8bd5e5e"
+            },
+            "2": {
+              "title": "se uma das operações satisfazer o if então o resultado será positivo",
+              "id": "35.4e78.8d0316a06-4ddb.7f8bd5e5e"
+            }
+          }
+        },
+        "-4": {
+          "title": "&& significa \"e\"",
+          "id": "36.4e78.8d0316a06-4ddb.7f8bd5e5e",
+          "ideas": {
+            "1": {
+              "title": "ao usar o && todos os operadores devem satisfazer a condição imposta",
+              "id": "37.4e78.8d0316a06-4ddb.7f8bd5e5e"
+            }
+          }
+        }
+      }
+    }
+  },
+  "title": ""
+}
